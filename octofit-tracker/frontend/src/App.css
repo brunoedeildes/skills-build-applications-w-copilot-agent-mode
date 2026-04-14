@@ -1,0 +1,103 @@
+/* App.css for Octofit Tracker */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0c3fc 100%);
+  margin: 0;
+  padding: 0;
+  color: #2d3142;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #22223b 60%, #9a8c98 100%) !important;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #c9ada7 !important;
+}
+
+/* Headings */
+h2, h1, h3, h4, h5, h6 {
+  color: #4a4e69;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.06);
+}
+.table thead {
+  background: #9a8c98;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f2e9e4;
+}
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #e0c3fc;
+}
+
+/* Buttons */
+.btn-primary, .btn-primary:focus {
+  background: linear-gradient(90deg, #4a4e69 60%, #9a8c98 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #9a8c98 60%, #4a4e69 100%);
+  color: #f2e9e4;
+}
+
+/* Links */
+a, .link {
+  color: #4a4e69;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .link:hover {
+  color: #9a8c98;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+  border: none;
+}
+.card-header {
+  background: #9a8c98;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 16px;
+}
+.modal-header {
+  background: #4a4e69;
+  color: #fff;
+}
+
+/* Custom logo alignment */
+.octofit-logo {
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
